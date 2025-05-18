@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "clientes-app": {
+    "cv-digital-2025": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/clientes-app",
+            "outputPath": "dist/cv-digital-2025",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "clientes-app:build"
+            "browserTarget": "cv-digital-2025:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "clientes-app:build:production"
+              "browserTarget": "cv-digital-2025:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "clientes-app:build"
+            "browserTarget": "cv-digital-2025:build"
           }
         },
         "test": {
@@ -116,18 +116,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "clientes-app:serve"
+            "devServerTarget": "cv-digital-2025:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "clientes-app:serve:production"
+              "devServerTarget": "cv-digital-2025:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "clientes-app",
+  "defaultProject": "cv-digital-2025",
   "cli": {
     "analytics": false
   }
